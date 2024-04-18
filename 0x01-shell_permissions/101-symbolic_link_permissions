@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo chown vincent:staff -R .
+ln -s /_hello/_hello /_hello/_hello
