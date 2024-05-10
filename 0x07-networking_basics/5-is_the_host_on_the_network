@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 # Program to ping an IP Address(8.8.8.8) 5 times
-ping -c 5 8.8.8.8
+if [ "$#" -gt 0 ]
+then
+	ping -c 5 $1
+else
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
