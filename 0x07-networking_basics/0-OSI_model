@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # The first answer is definition of OSI model and how it is organized
-2
+echo 2
+echo 2
